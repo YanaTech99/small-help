@@ -1,0 +1,109 @@
+﻿.error {
+        border-color: red;
+        }
+       
+
+	    body,html{
+	
+	
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	
+}
+
+.table-main {
+		 width:730px;
+		 text-align:center;
+	}
+	
+	
+td {
+	
+	
+	position: relative;
+	
+	white-space: normal;
+	
+	overflow: hidden;
+	word-break:break-all;
+	
+	}	
+
+.group-info tbody
+{text-align:left;
+}
+.group-info tbody tr td
+{min-width:200px;
+}
+
+	
+	.hide{
+		
+		display:none;
+		
+	}
+	
+	
+.date-data	{
+
+        border:1px solid rgba(171, 165, 165, 0.78);
+
+    padding: 10px 15px;
+    margin: 5px 0px;
+    font-size:25px;
+}
+
+
+	
+ .thin-table{font-family: verdana,arial,sans-serif;
+    font-size: 10px;
+    color: #000;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+	}
+	
+	 .thin-table tbody tr th{padding:4px;}
+	  .thin-table tbody tr td{padding:3px;}
+	
+	
+.banner{
+
+background-color: #000;
+    color: #fff;
+    font-size: -webkit-xxx-large;
+	font-size: 47px;
+    margin: 5px 0px;
+     
+}	
+	
+.rot340{
+transform: rotate(340deg);}
+	
+	
+td{padding:10px 0px;}
+
+
+.A4 {
+      background: white;
+ 
+    margin: 0 auto;
+    padding: 0px 0px;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.3cm rgba(0,0,0,0.5);
+}
+@media print {
+@page {
+  size: A4 portrait;
+  
+}
+.table-main{
+     page-break-after: always !Important;
+}
+
+.thin-table{font-family: verdana,arial,sans-serif;
+    font-size: 10px;
+
+}
+
+

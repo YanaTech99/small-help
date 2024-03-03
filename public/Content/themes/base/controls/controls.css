@@ -1,0 +1,76 @@
+﻿body {
+    font-family:Arial;
+}
+span {
+    color:#5b5b5b;
+    font-size:12px;
+}
+input[type="text"] {
+    border:solid 1px #c0c0c0;
+    border-radius:0px;
+    color:#5b5b5b;
+}
+input[type="button"] {
+    background-color:#4b8ca8;
+    border:none;
+    border-radius:0px;
+    color:#ffffff;
+     font-size:12px;
+     height:28px;
+     padding-left:3px;
+     padding-right:3px;
+     min-width:60px;
+}
+
+.btn1 {
+    background-color:#4b8ca8;
+    border:none;
+    border-radius:0px;
+    color:#ffffff;
+     font-size:12px;
+     height:30px;
+     padding-left:0px;
+     padding-right:0px;
+     min-width:60px;
+}
+
+table {
+    border:solid 1px #c0c0c0 !important;
+    color:#5b5b5b;
+    font-size:10px;
+
+} 
+table tr td, th {
+    border:none 0px ;
+
+} 
+table tr td, th {
+    border-right:solid 1px #c0c0c0 ;
+  
+
+} 
+ table tr:hover {
+          /*background-color: #f5f9fa !important;*/
+        }
+
+table tr th {
+    /*color:#808080 !important;*/
+    font-size:11px !important;
+    font-weight:normal !important;
+
+
+}
+
+/*  Define the background color for all the ODD background rows  */
+	table tr:nth-child(odd){ 
+		background: #ffffff;
+	}
+	/*  Define the background color for all the EVEN background rows  */
+	table tr:nth-child(even){
+		background: #f5f9fa;
+	}
+
+select {
+    border-radius:0px !important;
+}
+

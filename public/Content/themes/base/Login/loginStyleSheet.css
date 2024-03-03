@@ -1,0 +1,268 @@
+﻿html, body, form
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    height: 100%;
+}
+.modal-footer {   border-top: 0px; }
+.leftareabg
+{
+    float: left;
+     width: 93.6%;
+     height: 81.7Vh;
+     padding-left:6.4%;
+}
+.toparea
+{
+    height:65px;
+    float:left;
+    width:100%;
+    /*background-color: #c9ccd1;*/
+     background-color:#f5f5f5;
+     padding-top:9px;
+}
+.securebird
+{
+  background: url('../../Images/Login/securebird.png') no-repeat;
+    height: 53px;
+    width: 65px;  
+    float:right;
+    /*margin-top:2.6Vh;*/
+    margin-right:80px;
+    margin-bottom:2.6Vh;
+}
+.leftarea
+{
+    float: left;
+    width: 50%;
+   padding-top: 9.2%;
+   
+}
+.productname
+{
+    background: url('../../Images/Login/libertyonline_login.png') no-repeat;
+    height: 115px;
+    width: 110px;
+}
+.productbrief
+{
+    padding-top: 4%;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: normal;
+    color: #000000;
+    line-height: 200%;
+    text-align: justify;
+    -moz-text-align-last: left; /* Code for Firefox */
+    text-align-last: left;
+}
+.productimage
+{
+    margin-top: 4.7%;
+    margin-left: 0.3%;
+    background: url('../../Images/Login/productimage.png') no-repeat;
+    height: 325px;
+    width: 424px;
+}
+.rightarea
+{
+    float: left;
+    width: 43.6%;
+    height: 81.7vh;
+    margin-left: 6.4%;
+}
+.rightareaform
+{
+    float: left;
+    padding-left: 23%;
+    padding-top: 20%;
+    width:75%;
+
+}
+.signintitle
+{
+    font-family: Arial;
+    font-size: 22px;
+    font-style:normal;
+    color: #488daa;
+    margin-bottom: 2.1%;
+}
+.signinform
+{
+    margin-top: 4%;
+}
+.inputtext
+{
+    width:273px;
+    border: 1px solid #b8b8b8;
+    background-color:#ffffff !important;
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 5.5%;
+    padding-left:4px;
+    padding:4px 1px 4px 43px;
+    border-radius:3px;
+    border-top:1px solid #c4c4c4;
+    border-bottom:1px solid #c4c4c4;
+    border-left:2px solid #dfdfdf;
+    border-right:2px solid #dfdfdf;
+
+   height:20px;
+}
+.user
+{ 
+       background: url('../../Images/Login/usericon.png') no-repeat center left 10px;
+        background-color:#ffffff;
+ }
+ .password
+{ 
+       background: url('../../Images/Login/passwordicon.png') no-repeat center left 10px;
+       background-color:#ffffff;
+ }
+.inputtextarea
+{
+    float: left;
+    width: 100%;
+}
+
+.captchaarea
+{
+    border: 1px solid #b8b8b8;
+    width: 94%;
+    height: 105px;
+    padding: 7px;
+    float: left;
+}
+.captchatextarea
+{
+    height: 57px;
+    padding: 5px;
+    border: 1px solid #b8b8b8;
+    width: 96%;
+    float: left;
+}
+.refreshbutton
+{
+    border: none;
+    background: url('../../Images/Login/refreshbutton.png') no-repeat;
+    height: 23px;
+    width: 33px;
+    margin-top: 7px;
+}
+.lblcaptchahint
+{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    color: #5b5b5b;
+    padding-left: 10px;
+}
+.loginbtndiv
+{
+    width: 100%;
+    float: left;
+    margin-top: 9.6%;
+}
+.loginbutton
+{
+    border: none;
+    height: 34px;
+    width: 100%;
+    background-color: #4b8ca8;
+    color: #ffffff;
+}
+.forgetpassworddiv
+{
+   width: 100%;
+    float: left;
+    margin-top: 4%;
+   
+}
+.forgetpasswordlink
+{
+    color:#4389a2;
+     font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+   text-align:center; 
+     display:block;
+     text-decoration:none;
+    
+}
+.godaddydiv
+{
+   width: 100%;
+    float: left;
+    margin-top: 3%;
+   
+}
+.godaddyimg
+{
+    text-align:center; 
+    display:block;
+   margin: 0 auto;
+    background: url('../../Images/Login/verified-logo.png') no-repeat;
+    height: 36px;
+    width: 181px;
+  
+}
+.footerdiv
+{
+position: fixed;
+    bottom: 9px;
+    width: 93.6%;
+    float:left;
+    padding-left:6.4%
+}
+.copyright
+{
+    float:left;
+      color:#000000;
+     font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top:20px;
+}
+.securelogodiv
+{
+     
+   float:right;
+   position: fixed;
+    bottom: 9px;
+    margin-left:190px;
+
+  
+}
+.securelogoimg
+{
+     
+    background: url('../../Images/Login/securelogo.png') no-repeat;
+    height: 32px;
+    width: 130px;
+  
+}
+
+@media screen and (max-width: 1024px)
+{
+ .leftarea {
+       padding-top: 5%;
+    }
+    .rightareaform
+    {
+        padding-top: 10%;
+          padding-left: 4.5%;
+    }
+    .productbrief {
+        font-size:12px;
+    }
+}
+@media screen and (max-width: 800px)
+{
+ .leftarea {
+       display:none;
+    }
+    
+}

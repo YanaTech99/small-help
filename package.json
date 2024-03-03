@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^3.21.2",
+    "httpntlm": "^1.8.13",
+    "jade": "^1.11.0",
+    "localstorage": "^1.0.1",
+    "mssql": "^10.0.2",
+    "pg": "^8.11.3",
+    "serve-favicon": "^2.5.0"
+  }
+}
