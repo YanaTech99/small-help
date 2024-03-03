@@ -1,0 +1,140 @@
+﻿ html body {
+            background-color: #f7f7f7;
+            height: 100%;
+        }
+        .productname {
+            color: #4c4c4d;
+            font-size: 34pt;
+            font-family: Arial;
+            margin-top: 120px;
+        }
+
+         .asjlogo {
+            margin: 10px 0px 20px;
+            background: url('/Images/ASJ_Logo.jpg') no-repeat;
+            height: 200px;
+            width: 100%;
+            text-align:center;
+            align-items:center;
+            border: 0;
+            border-style: none;
+        }
+
+        .form {
+            position: relative;
+            z-index: 1;
+            background: #ffffff;
+            max-width: 412px;
+            margin: 0 auto 100px;
+            padding: 32px;
+            text-align: center;
+        }
+
+        .lbllogin {
+            margin: 0px 0px 22px;
+            font-family: Arial;
+            font-size: 12pt;
+            color: #696868;
+        }
+
+        .inputbox {
+            padding: 0px 20px;
+            height: 36px;
+            border-radius: 0;
+            border: solid 1px #cac7c8;
+            margin-bottom: 17px;
+        }
+
+        .margincheckbox {
+            margin: 5px 0px 18px;
+            font-size: 10pt;
+            color: #696868;
+        }
+
+        .form button {
+            font-family: "Roboto", sans-serif;
+            text-transform: uppercase;
+            outline: 0;
+            background: #4b8ca8;
+            width: 100%;
+            border: 0;
+            border-radius: 0;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            color: #FFFFFF;
+            font-size: 14px;
+            -webkit-transition: all 0.3 ease;
+            transition: all 0.3 ease;
+            cursor: pointer;
+        }
+
+            .form button:hover, .form button:active, .form button:focus {
+                background: #43A047;
+            }
+
+        .form .message {
+            margin: 23px 0 5px 0;
+            color: #b3b3b3;
+            font-size: 12pt;
+            font-family: Arial;
+        }
+
+            .form .message a {
+                font-size: 10pt;
+                color: #696868;
+                text-decoration: none;
+            }
+
+        .footerheight {
+            height: 46px;
+            background-color: #ffffff;
+            padding-top: 18px;
+        }
+
+            .footerheight span {
+                font-size: 10pt;
+                color: #696868;
+                text-decoration: none;
+            }
+
+            .footerheight a {
+                font-size: 10pt;
+                color: #696868;
+                text-decoration: none;
+            }
+        /*==========  Mobile First Method  ==========*/
+
+        /* Custom, iPhone Retina */
+        @media only screen and (min-width : 320px) {
+            .top30 {
+                margin-top: 3px;
+            }
+        }
+
+        /* Extra Small Devices, Phones */
+        @media only screen and (min-width : 480px) {
+            .top30 {
+                margin-top: 3px;
+            }
+        }
+
+        /* Small Devices, Tablets */
+        @media only screen and (min-width : 768px) {
+            .top30 {
+                margin-top: 30px;
+            }
+        }
+
+        /* Medium Devices, Desktops */
+        @media only screen and (min-width : 992px) {
+            .top30 {
+                margin-top: 30px;
+            }
+        }
+
+        /* Large Devices, Wide Screens */
+        @media only screen and (min-width : 1200px) {
+            .top30 {
+                margin-top: 30px;
+            }
+        }

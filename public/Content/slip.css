@@ -1,0 +1,104 @@
+.error {
+        border-color: red;
+        }
+       
+ body,html{
+	font-family:"Times New Roman", Times New Roman;
+	
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+
+	
+	
+}
+
+
+td {
+	position: relative;
+	white-space: normal;
+	min-width:40px;
+	overflow: hidden;
+	word-break:break-all;
+	
+	}	
+
+	.left{text-align:left;}
+	.right{text-align:right;}
+	.center{text-align:center;}
+	.adjust{text-align:adjust;}
+	
+	
+	.mainDiv{
+   height:48%;
+    width:100%;
+	clear:both;
+	
+   }
+
+	
+	.left-div{width:38%; float:left; display:inline-block;}
+.right-div{ width:58% ;  margin-left:4%; display:inline-block;}
+
+
+	
+.date-data	{
+
+        border:1px solid rgba(171, 165, 165, 0.78);
+
+    padding: 10px 15px;
+    margin: 5px 0px;
+    font-size:25px;
+}
+
+
+	
+ .thin-table{font-family: verdana,arial,sans-serif;
+    font-size: 8px;
+    color: #000;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+	height:100%;
+	}
+	
+	 .thin-table tbody tr th{padding:2px;}
+	  .thin-table tbody tr td{padding:2px;}
+	
+
+
+	
+.banner{
+
+background-color: rgb(200, 200, 200);
+    color: #000;
+
+     }	
+	
+.rot340{
+transform: rotate(340deg);}
+	
+	
+
+
+
+.A4 {
+      background: white;
+    
+    display: block;
+    margin: 0 auto;
+    padding: 0px 0px;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.3cm rgba(0,0,0,0.5);
+}
+@media print {
+@page {
+  size: A4 portrait;
+  
+}
+
+.mainDiv{font-family: verdana,arial,sans-serif;}
+.left-div{height:60% }
+.right-div{height:60%}
+}
+
+		   

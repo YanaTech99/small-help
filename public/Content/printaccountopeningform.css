@@ -1,0 +1,223 @@
+﻿#Main {
+width: 8.27in;    
+position:absolute;
+background-position-x:0px;
+background-position-y:0px;
+font-family:'Times New Roman';
+font-size:11px; 
+background-color:#e0dbdb;
+padding-left:40px;
+}
+pre {font-family:'Times New Roman';
+font-size:11px; 
+}
+table {
+border-collapse: separate;
+border-spacing: 0 4px; 
+width: 99%;       
+}
+td {
+text-align: left;
+            }
+.BorderDiv {
+    border:1px solid #000;
+    width:200px;
+    background-color:#fff;
+    font-size:14px;
+    font-weight:bold;
+    margin-left:520px;
+    margin-bottom:6px;           
+}
+.HeadDiv {
+         
+    width:90%;
+    height:18px;
+    background-color:#2d8320;
+    font-size:14px;
+    font-weight:bold;
+    color:#fff;
+    margin-left:10px;               
+}
+.imageDiv {
+    margin-bottom:-35px;
+    margin-top:5px;
+}
+.border {
+ border:1px solid #000;
+}
+
+
+.border1 {
+ border:1px solid #858181;
+}
+.td
+{ 
+    background-color:#999999;
+}
+
+.bdr, .bdr td, .bdr th
+{
+border-right:1px solid #858181;
+border-top:1px solid #858181;
+border-bottom:1px solid #858181;
+background-color:#fff;
+padding:1px;
+border-left-style: none;
+border-left-color: inherit;
+border-left-width: medium;
+            }
+.bdr {
+border-left:1px solid #858181;
+
+}
+.centerTD {
+text-align:center;
+}     
+
+.pageheading {
+font-weight:bold;
+font-family:'Times New Roman';
+text-decoration-style:solid;
+text-decoration: underline;
+font-size:12px;
+margin-left:180px;
+width:300px;
+}
+div {
+    width:93%;
+            margin-left: 0px;
+            margin-right: 28px;
+        }
+body {
+font-size:10px;
+margin-right:0.30in;
+margin-bottom:0.30in;
+margin-top:0.10in;
+
+}
+
+.auto-style4 {
+border: 1px solid #000;
+width: 192px;
+}
+#tbleCustomer
+ {  
+    border-collapse:collapse;
+    border-top:1px solid #858181;
+    border-bottom:1px solid #858181;
+    width: 87%;
+    margin-left:20px;
+
+}
+#tbleCustomer td 
+{
+    padding:1.5px;
+   
+}             
+.centerDiv {
+    background-color:#ccc7c7;
+    width:300px;text-align:center;
+    font-weight:bold;
+    border-radius:10px;
+    margin-left:200px;
+    margin-top:3px;
+    font-size:13px;
+}
+#PassScroll {
+border-collapse:collapse;
+border:#858181 solid 1px;
+}  
+#PassScroll td 
+{
+    padding:5px;
+    border: solid #858181 1px;
+}
+#PassScroll  th {
+     border: solid #fff 1px;
+    background-color:#858181;
+    color:#fff;
+}
+
+.verticalLine {
+    margin:0 auto;
+    width:1%;
+    /*height:1100px;*/
+    height:1053px;
+    border-right:2px dashed #2d8320;
+    float:left;
+}
+.content
+ {
+margin-left:10px;
+}
+.left {
+border-style: none;
+border-color: inherit;
+border-width: 0;
+width:45%;
+float:left;
+margin:0;
+padding:0;
+  height: 100%;}
+.right {
+padding:0;
+border:0;
+width:46%; 
+float:right ;
+  height: 100%;}
+.form
+ {
+width: 100%;
+}
+.MainHeading {
+    text-align:center;
+    font-size:12px;
+}
+#Form60Table {
+    width:93%;
+ border-collapse:collapse;
+}
+#Form60Table td {
+    padding: 5px;
+  
+}
+.HeadTable {
+    width:93%;
+    border-collapse:collapse;
+    border:1px solid #858181;
+}
+.HeadTable td {
+    padding: 5px;
+   border:1px solid #858181;
+  
+}
+.HeadTable th {
+    padding: 5px;
+  border:1px solid #858181;
+   
+}
+.FillTD {
+    background-color:#ccc7c7;
+}
+.BdrNew {
+    border-right:1px solid #858181;
+border-top:1px solid #858181;
+border-bottom:1px solid #858181;
+background-color:#e0dbdb;
+padding:1px;
+border-left-style: none;
+border-left-color: inherit;
+border-left-width: medium;
+
+
+}
+
+.DivBlocks {
+
+ width:15px;height:15px;background-color:#858181;
+
+}
+.thin-table {
+ border:1px solid #000;
+ border-collapse: collapse;
+}

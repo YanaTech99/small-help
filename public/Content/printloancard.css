@@ -1,0 +1,114 @@
+﻿.error {
+        border-color: red;
+        }
+       
+	   body{
+		margin:0 auto;
+		
+        }
+        table tr td,table tr td{
+		        font-size: 9px;
+			        min-width:50px;
+			        max-width:100px;
+					 text-transform:initial;
+					 font-family:sans-serif;
+	        }
+	@media only screen and (max-width: 500px) {
+	 table,head,tbody,th,td,tr {
+		display: block;
+      	border: 1px solid #000; 
+		 text-transform:initial;
+	}
+	thead tr {
+	
+	}
+	tr {
+	 
+	}
+	td {
+	border: 1px solid #000; 
+	
+	position: relative;
+	
+	white-space: normal;
+	text-align:left;
+	min-height: 30px;
+	overflow: hidden;
+	word-break:break-all;
+	}
+	td:before {
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 45%;
+	padding-right: 10px;
+	text-align:left;
+	font-weight: bold;
+	}
+	td:before { content: attr(data-title); }
+}
+
+.align-right{text-align:right}
+
+ul{margin:2px 2px 2px -40px   ;
+list-style: none;
+ 
+ font-size:8px;
+ }
+li{margin-bottom:4px}
+
+
+
+.left-div{width:49%;  float:left; display:inline}
+.right-div{ margin-left:1%}
+.alignC{text-align:center;}
+.alignR{text-align:right;}
+.alignL{text-align:Left;}
+.info-box{border:3px solid #000;  }
+.hide{
+	
+display:none;
+	
+}
+
+.mainDiv{
+   
+    width:100%;
+	clear:both;
+height:auto;
+	bottom:0;
+
+}
+
+
+
+ div.mainDiv
+      {
+        page-break-after: always !Important;
+      
+      }
+
+
+
+@media print {
+@page {
+  size: A4 landscape;
+  
+}
+.mainDiv{
+     page-break-after: always !Important;
+}
+
+}
+
+@media print and (color) {
+   * {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+   }
+}
+
+
+
+
+
